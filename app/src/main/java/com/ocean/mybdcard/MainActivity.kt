@@ -60,7 +60,7 @@ class MainActivity : ComponentActivity() {
 fun GreetingImage(msg: String, from: String, modifier: Modifier) {
     Box(modifier = modifier) {
         Image(
-            painter = painterResource(id = R.drawable.ic_launcher_background),
+            painter = painterResource(id = R.drawable.androidparty),
             contentDescription = null,
             contentScale = ContentScale.Crop,
             alpha = 0.5F
